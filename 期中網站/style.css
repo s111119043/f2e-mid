@@ -1,0 +1,55 @@
+html {
+width: 100%;
+height: inherit;
+}
+body {
+
+}
+.header {
+    padding-top: 20px;
+    color:gainsboro;
+
+}
+.header-brand {
+    
+}
+.nav {
+    margin-top: 20px;
+
+}
+.nav-list{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+}
+.nav-list-item{
+    list-style: none;
+    margin-right: 5px;
+}
+.nav-list-item-link {
+    display: block;
+    color: dimgrey;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 3px soild #e5e9dc;
+    border-bottom: none;
+}
+.nav-list-item-link:hover{
+    background-color: #e5e9dc;
+}
+.nav-sublist {
+    position: absolute;
+    background-color: rgba(97, 118, 97, 0.1);
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+.nav-list-item:hover .nav-sublist{
+    display: block;
+}
+
+.nav-sublist .nav-list-item:hover .nav-list-item-link{
+    background-color: darkgrey;
+    color: beige;
+}
